@@ -14,6 +14,7 @@ class LoginRequest extends FormRequest
     public function authorize()
     {
         return true;
+
     }
 
     /**

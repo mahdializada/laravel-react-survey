@@ -15,6 +15,7 @@ class DashboardController extends Controller
     {
         $user = $request->user();
 
+
         // Total Number of Surveys
         $total = Survey::query()->where('user_id', $user->id)->count();
 
