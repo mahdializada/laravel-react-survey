@@ -16,6 +16,7 @@ class StoreSurveyRequest extends FormRequest
         return true;
     }
 
+
     protected function prepareForValidation()
     {
         $this->merge([
